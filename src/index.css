@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 100vh;
+  width: 100%;
+}
+
+.header{
+  width: 100%;
+  line-height: 100px;
+  background-color: yellow;
+  display: flex;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  color: black;
+  box-shadow: 5px 3px 15px -5px rgba(0, 0, 0, 0.5);
+}
+
+.main-note{
+  width: 500px;
+  padding: 15px 10px 5px 10px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.my-notes h1{
+  color: #34495e;
+}
+
+.my-notes p{
+  color: grey;
+}
+
+form {
+  min-height: 50px;
+  color: white;
+  padding: 15px 10px 5px 10px;
+  box-shadow: 3px 5px 15px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  position: relative;
+}
+
+input{
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+textarea{
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.btn-root{
+      width: 30px;
+      height: 50px;
+      position: absolute;
+      bottom: -28px;
+      left: 400px;
+      cursor: pointer;
+      background-color: aliceblue;
+      box-shadow: 5px 3px 15px -5px rgba(0, 0, 0, 0.5);
+      border-radius: 50%;
+}
+
+.btn-roots{
+  font-size: 45px;
+  font-weight: 900;
+  color: yellow;
+  cursor: pointer;
+  z-index: 222;
+  background: transparent;
+}
+
+.btn:hover{
+  background: black;
+}
+
+.note{
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px grey ;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1{
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.note p{
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.note .btns{
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f4b400;
+  border: none;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: 3px 3px 15px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+.deleteicon{
+  width: 0.7rem;
+  height: 0.7rem;
+}
+
+.note .btns:hover{
+  background-color: #34495e;
+}
+.note .btns:hover .deleteicon{
+  color: #fff;
+}
+
+footer{
+width: 100%;
+position: absolute;
+bottom: 0;
+}
+
